@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qual o seu país de origem?</h1>
+    <input type="text" name="txt" id="txt">
+    <button onclick="Clicar()">Enviar</button>
+    <p id="area">abc...</p>
+    <script>
+        function Clicar() {
+            var res = document.getElementById('area')
+            var pais = document.getElementById('txt').value
+            console.log(res);
+            if (pais.toLocaleLowerCase() == 'brasil') {
+                res.innerText = 'Bolsonarista'
+            } else {
+                res.innerText = `Você é Estrangeiro!`
+            }
+        }
+    </script>
+</body>
+</html>
