@@ -1,0 +1,51 @@
+body {
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    width: 550px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #00000075;
+}
+
+#pricipal {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+select {
+    width: 150px;
+    margin-bottom: 2px;
+}
+
+option {
+    width: 150px;
+}
+
+#finalizar {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    padding-top: 25px;
+}
+
+/* !{}*/
